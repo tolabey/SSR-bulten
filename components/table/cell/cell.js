@@ -12,7 +12,7 @@ function selectHelper(data, context, cell, eventKey) {
 export function Cell(props) {
   const {
     data, cell = {width: '', id: '-1'}, itemIndex, rendererType, className, idx, context, eventKey,
-  } = props;
+} = props;
 
   return (
     <div
