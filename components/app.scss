@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.double-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  font-size: 16pt;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  overflow: auto!important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+  -ms-overflow-style: none;
+}
+
+

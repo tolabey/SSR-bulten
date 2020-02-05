@@ -1,0 +1,32 @@
+.coupon-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.one-coupon {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 70px;
+  background-color: darkolivegreen;
+
+}
+
+.one-coupon__elem {
+  display: flex;
+
+  div {
+    margin-right: 3px;
+  }
+}
+
+.selected-matches {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.total-rate-line {
+background-color: red;
+
+}
